@@ -8,19 +8,14 @@
         <link rel="stylesheet" href="style.css">
     </head>
     <style>
-    .product_categories{
+    .product_categories_container{
     border: 2px solid #111;
     align-items: center;
     justify-content: center;
     padding: 30px;
 }
-.productsbox{
-    display: flex;
-    gap: 20px;
-    align-items: center;
-    justify-content: center;
-}
-.productsbox1{
+
+.categories_container{
     display: flex;
     align-items: center;
     justify-content: center;
@@ -28,7 +23,7 @@
     gap: 30px;
 }
 
-.products_sub_box{
+.category_box{
 
     border: 2px solid #111;
     padding: 20px;
@@ -45,66 +40,66 @@
     <body>
         <div w3-include-html="header.html"></div>
         <div>
-            <div class="product_categories">
+            <div class="product_categories_container">
                 <h1 style="text-align: center; margin: 0%; padding-bottom: 30px;">Product categories</h1>
-                <div class="productsbox">
-                    <div class="productsbox1">
+                
+                    <div class="categories_container">
                         <a href="SinglProduct.html">
-                            <div class="products_sub_box">
+                            <div class="category_box">
                             <img src="/product_category_images/grocery.png" alt="image" width="200px" height="150px">
                                 <p style="margin: 0%;">Groceries</p>
                         </div>
                         </a>
                         <a href="SinglProduct.html">
-                            <div class="products_sub_box">
+                            <div class="category_box">
                             <img src="/product_category_images/men.png" alt="image" width="180px" height="150px">
                                <p style="margin: 0%;">Men's Fashion</p>
                         </div>
                         </a>
                         <a href="SinglProduct.html">
-                        <div class="products_sub_box">
+                        <div class="category_box">
                         <img src="/product_category_images/women.png"  alt="image" width="100px" height="150px">
                            <p style="margin: 0%;">Women's Fashion</p>
                         </div>
                         </a>
                         <a href="SinglProduct.html">
-                        <div class="products_sub_box">
+                        <div class="category_box">
                         <img src="/product_category_images/kids.png"  alt="image" width="200px" height="150px">
                           <p style="margin: 0%;">Kid's Fashion</p>
                         </div>
                         </a>
                         <a href="SinglProduct.html">
-                        <div class="products_sub_box">
+                        <div class="category_box">
                         <img src="/product_category_images/health products.png"  alt="image" width="220px" height="150px">
                            <p style="margin: 0%;">Health and Beauty</p>
                         </div>
                         </a>
                         <a href="SinglProduct.html">
-                        <div class="products_sub_box">
+                        <div class="category_box">
                         <img src="/product_category_images/electronic devices.png"  alt="image" width="200px" height="150px">
                           <p style="margin: 0%;">Electronic Devices</p>
                         </div>
                         </a>
                         <a href="SinglProduct.html">
-                        <div class="products_sub_box">
+                        <div class="category_box">
                         <img src="/product_category_images/electronic accessories.png"  alt="image" width="240px" height="150px">
                            <p style="margin: 0%;">Electronic Accessories</p>
                         </div>
                         </a>
                         <a href="SinglProduct.html">
-                        <div class="products_sub_box">
+                        <div class="category_box">
                             <img src="/product_category_images/home appliances.png"  alt="image" width="240px" height="150px">
                               <p style="margin: 0%;">TV and Home Appliances</p>
                         </div>
                         </a>
                         <a href="SinglProduct.html">
-                        <div class="products_sub_box">
+                        <div class="category_box">
                             <img src="/product_category_images/sports.png"  alt="image" width="240px" height="150px">
                                 <p style="margin: 0%;">Sports and Outdoors</p>
                         </div>
                         </a>
                         <a href="SinglProduct.html">
-                            <div class="products_sub_box">
+                            <div class="category_box">
                                 <img src="/product_category_images/home.png"  alt="image" width="240px" height="150px">
                                     <p style="margin: 0%;">Home and Lifestyle</p>
                             </div>
@@ -116,7 +111,7 @@
                         <div class="subbox">box7</div>
                         <div class="subbox">box8</div>
                     </div> -->
-                </div>
+                
             </div>
         </div>
         <div w3-include-html="footer.html"></div>
